@@ -1,8 +1,6 @@
 **Charles M. Bridges, M.S., Ph.D.**
 
-Microbiologist, Molecular Biologist, Biochemist
-
-Scientific Consultant
+Microbiologist, Molecular Biologist, Biochemist, Scientific Consultant
 
 Email: [charlesmbridgesphd@gmail.com](mailto:charlesmbridgesphd@gmail.com)
 
