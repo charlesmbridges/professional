@@ -1,4 +1,4 @@
-Charles M. Bridges, M.S., Ph.D.
+**Charles M. Bridges, M.S., Ph.D.**
 
 Microbiologist, Molecular Biologist, Biochemist
 
