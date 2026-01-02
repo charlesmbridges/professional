@@ -6,9 +6,9 @@ Email: [charlesmbridgesphd@gmail.com](mailto:charlesmbridgesphd@gmail.com)
 
 GitHub: [(This Page)](https://charlesmbridges.github.io/Professional)
 
-Resume:  [v2025-12-29](https://github.com/charlesmbridges/professional/blob/main/Bridges_Resume_2025-12-29.pdf)
+Resume:  [v2026-01-02](https://github.com/charlesmbridges/professional/blob/main/Bridges_Resume_2026-01-02.pdf)
 
-Curriculum Vitae: [v2025-12-29](https://github.com/charlesmbridges/professional/blob/main/Bridges_CV_2025-12-29.pdf)
+Curriculum Vitae: [v2026-01-02](https://github.com/charlesmbridges/professional/blob/main/Bridges_CV_2026-01-02.pdf)
 
 ORCID: <https://orcid.org/0000-0002-9527-2476>
 
