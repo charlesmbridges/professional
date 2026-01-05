@@ -8,7 +8,7 @@ GitHub: [(This Page)](https://charlesmbridges.github.io/Professional)
 
 Resume:  [v2026-01-02](https://github.com/charlesmbridges/professional/blob/main/Bridges_Resume_2026-01-02.pdf)
 
-Curriculum Vitae: [v2026-01-02](https://github.com/charlesmbridges/professional/blob/main/Bridges_CV_2026-01-02.pdf)
+Curriculum Vitae: [v2026-01-02](https://github.com/charlesmbridges/professional/blob/f5f9db5b5000cdcd2fa9c4b57d4b6a26d065cd63/Bridges_CV_2026-01-02.pdf)
 
 ORCID: <https://orcid.org/0000-0002-9527-2476>
 
