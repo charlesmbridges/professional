@@ -24,8 +24,8 @@ Consultancy: [https://www.StrategicMolecularSolutions.com](https://www.strategic
 
 **Areas of Expertise**:
 
-**Laboratory & Scientific Operations**: BSL-2 Laboratory Operations | Procurement & Purchasing | Inventory Management | Budget Support | Account Allocation | Documentation & Compliance | Vendor Coordination | Laboratory Information Management Software (LIMS) | Quality Control | SOP Development\
-**Experimental Techniques**: Sterile Technique | Microbial & Viral Culture (Aerobic & Anaerobic) | Nucleic Acid Extraction | Molecular Cloning | Mutagenesis | Microbe Engineering | CRISPRi | Protein Engineering, Expression & Purification | Liquid Chromatography (LC) | Ultracentrifugation | Fluorescence & Transmission Electron Microscopy\
-**Technical, Computational & Bioinformatics**: Unix | Linux | HPC | Bash | Python | R | High-Throughput Sequencing & Quality Control | Genome Assembly & Annotation | Comparative Genomics | Data Visualization | Scientific Reporting\
-**Leadership & Compliance**: Laboratory Management | Preventive Maintenance | Training & Onboarding | EHS & DPH Coordination | Inspection Readiness | Granting Agency Compliance | Risk Assessment\
-**Communication & Collaboration**: Cross-functional Teamwork | Collaborative Communication | Scientific Writing | Technical Presentations | Electronic Recordkeeping | Mentoring | Problem-solving | Interdisciplinary Thinking
+**Laboratory & Scientific Operations**: BSL-2 Laboratory Operations, Procurement & Purchasing, Inventory Management, Budget Support, Account Allocation, Documentation & Compliance, Vendor Coordination, Laboratory Information Management Software (LIMS), Quality Control, SOP Development\
+**Experimental Techniques**: Sterile Technique, Microbial & Viral Culture (Aerobic & Anaerobic), Nucleic Acid Extraction, Molecular Cloning, Mutagenesis, Microbe Engineering, CRISPRi, Protein Engineering, Expression & Purification, Liquid Chromatography (LC), Ultracentrifugation, Fluorescence & Transmission Electron Microscopy\
+**Technical, Computational & Bioinformatics**: Unix, Linux, HPC, Bash, Python, R, High-Throughput Sequencing & Quality Control, Genome Assembly & Annotation, Comparative Genomics, Data Visualization, Scientific Reporting\
+**Leadership & Compliance**: Laboratory Management, Preventive Maintenance, Training & Onboarding, EHS & DPH Coordination, Inspection Readiness, Granting Agency Compliance, Risk Assessment\
+**Communication & Collaboration**: Cross-functional Teamwork, Collaborative Communication, Scientific Writing, Technical Presentations, Electronic Recordkeeping, Mentoring, Problem-solving, Interdisciplinary Thinking
