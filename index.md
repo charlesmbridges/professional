@@ -21,7 +21,6 @@ LinkedIn: <https://www.linkedin.com/in/charlesmbridges/>
 Consultancy: [https://www.StrategicMolecularSolutions.com](https://www.strategicmolecularsolutions.com/)
 \
 \
-\
 **Areas of Expertise**:
 
 **Laboratory & Scientific Operations**: BSL-2 Laboratory Operations, Procurement & Purchasing, Inventory Management, Budget Support, Account Allocation, Documentation & Compliance, Vendor Coordination, Laboratory Information Management Software (LIMS), Quality Control, SOP Development\
