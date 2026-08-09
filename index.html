@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charles M. Bridges, M.S., Ph.D.</title>
+<meta name="description" content="Charles M. Bridges, Ph.D. — Microbiologist, molecular biologist, biochemist, and scientific consultant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --accent:#0B4F6C;
+    --accent-light:#E4EEF1;
+    --ink:#1B2733;
+    --ink-soft:#4A5A68;
+    --ink-muted:#7A8A97;
+    --line:#E3E8EB;
+    --bg:#FFFFFF;
+    --bg-alt:#F7F9FA;
+    --radius:10px;
+    --maxw:920px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+
+  header.hero{
+    background:var(--accent);
+    color:#fff;
+    padding:64px 0 48px;
+  }
+  header.hero .wrap{display:flex;flex-direction:column;gap:18px;}
+  header.hero h1{margin:0;font-size:2.1rem;font-weight:700;letter-spacing:-0.01em;}
+  header.hero p.role{margin:0;font-size:1.05rem;font-weight:500;color:#CFE0E8;}
+  header.hero p.bio{margin:6px 0 0;max-width:640px;font-size:1rem;color:#E7F0F3;font-weight:400;}
+  .links-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+  .pill{
+    display:inline-flex;align-items:center;gap:6px;
+    padding:8px 14px;border-radius:999px;
+    border:1px solid rgba(255,255,255,0.4);
+    color:#fff;font-size:0.88rem;font-weight:500;
+    background:rgba(255,255,255,0.08);
+  }
+  .pill:hover{background:rgba(255,255,255,0.18);text-decoration:none;}
+  .pill.primary{background:#fff;color:var(--accent);border-color:#fff;}
+  .pill.primary:hover{background:#EFF6F8;}
+
+  main section{padding:44px 0;border-bottom:1px solid var(--line);}
+  main section:last-of-type{border-bottom:none;}
+  h2{
+    font-size:0.78rem;letter-spacing:0.09em;text-transform:uppercase;
+    color:var(--accent);font-weight:700;margin:0 0 20px;
+  }
+  section.about p{max-width:680px;color:var(--ink-soft);font-size:1.02rem;margin:0;}
+
+  .stat-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
+  }
+  .stat{background:var(--bg-alt);border-radius:var(--radius);padding:18px 16px;text-align:left;}
+  .stat .num{font-size:1.7rem;font-weight:700;color:var(--accent);display:block;line-height:1.1;}
+  .stat .label{font-size:0.82rem;color:var(--ink-muted);margin-top:4px;display:block;}
+
+  .expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px 32px;}
+  .expertise-group h3{margin:0 0 10px;font-size:0.9rem;color:var(--ink);font-weight:600;}
+  .chip-row{display:flex;flex-wrap:wrap;gap:7px;}
+  .chip{
+    display:inline-block;padding:5px 12px;border-radius:6px;
+    background:var(--accent-light);color:var(--accent);
+    font-size:0.8rem;font-weight:500;line-height:1.3;
+  }
+
+  .doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .doc-card{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;
+  }
+  .doc-card .doc-title{font-weight:600;font-size:0.95rem;color:var(--ink);}
+  .doc-card .doc-sub{font-size:0.8rem;color:var(--ink-muted);margin-top:2px;}
+  .doc-card .doc-btn{
+    flex-shrink:0;font-size:0.85rem;font-weight:600;
+    border:1px solid var(--accent);color:var(--accent);
+    padding:8px 14px;border-radius:6px;
+  }
+  .doc-card .doc-btn:hover{background:var(--accent-light);text-decoration:none;}
+
+  .consult-card{
+    background:var(--bg-alt);border-radius:var(--radius);padding:26px 28px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .consult-card h3{margin:0;font-size:1.05rem;color:var(--ink);}
+  .consult-card p{margin:0;color:var(--ink-soft);font-size:0.92rem;max-width:600px;}
+  .consult-card a.cta{font-weight:600;font-size:0.9rem;margin-top:4px;}
+
+  footer{padding:36px 0 56px;}
+  footer .links-row .pill{border-color:var(--line);color:var(--accent);background:transparent;}
+  footer .links-row .pill:hover{background:var(--accent-light);}
+  footer p.copyright{color:var(--ink-muted);font-size:0.8rem;margin:22px 0 0;}
+
+  @media (max-width:640px){
+    header.hero{padding:44px 0 36px;}
+    header.hero h1{font-size:1.6rem;}
+    .stat-grid{grid-template-columns:1fr 1fr;}
+    .expertise-grid, .doc-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Charles M. Bridges, M.S., Ph.D.</h1>
+    <p class="role">Microbiologist &middot; Molecular Biologist &middot; Biochemist &middot; Scientific Consultant</p>
+    <p class="bio">PhD microbiologist and molecular biologist with 15 years of bench and laboratory leadership experience, now applying that technical depth to operations, quality, and program roles across the life sciences and biotech industry.</p>
+    <div class="links-row">
+      <a class="pill primary" href="Bridges_Resume_2026-02-05.pdf" download>Resume (PDF)</a>
+      <a class="pill primary" href="Bridges_CV_2026-01-02.pdf" download>Curriculum Vitae (PDF)</a>
+    </div>
+    <div class="links-row">
+      <a class="pill" href="mailto:charlesmbridgesphd@gmail.com">Email</a>
+      <a class="pill" href="https://www.linkedin.com/in/charlesmbridges/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="pill" href="https://scholar.google.com/citations?hl=en&user=vsOBoQQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a class="pill" href="https://orcid.org/0000-0002-9527-2476" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a class="pill" href="https://www.researchgate.net/profile/Charles-Bridges" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="stats">
+      <h2>By the numbers</h2>
+      <div class="stat-grid">
+        <div class="stat"><span class="num">15</span><span class="label">Years of laboratory experience</span></div>
+        <div class="stat"><span class="num">7</span><span class="label">Peer-reviewed publications</span></div>
+        <div class="stat"><span class="num">22</span><span class="label">Presentations (posters &amp; talks)</span></div>
+        <div class="stat"><span class="num">12</span><span class="label">Clean biological &amp; chemical safety inspections</span></div>
+      </div>
+    </section>
+
+    <section class="expertise">
+      <h2>Core skills &amp; competencies</h2>
+      <div class="expertise-grid">
+        <div class="expertise-group">
+          <h3>Laboratory &amp; scientific operations</h3>
+          <div class="chip-row">
+            <span class="chip">BSL-2 operations</span>
+            <span class="chip">Procurement &amp; vendor management</span>
+            <span class="chip">Inventory &amp; budget support</span>
+            <span class="chip">Documentation &amp; compliance</span>
+            <span class="chip">LIMS</span>
+            <span class="chip">SOP development</span>
+            <span class="chip">Quality control</span>
+          </div>
+        </div>
+        <div class="expertise-group">
+          <h3>Experimental techniques</h3>
+          <div class="chip-row">
+            <span class="chip">Microbial &amp; viral culture</span>
+            <span class="chip">Nucleic acid extraction</span>
+            <span class="chip">Molecular cloning</span>
+            <span class="chip">Mutagenesis</span>
+            <span class="chip">Microbial strain engineering</span>
+            <span class="chip">Synthetic biology</span>
+            <span class="chip">CRISPRi</span>
+            <span class="chip">Protein expression &amp; purification</span>
+            <span class="chip">Liquid chromatography</span>
+            <span class="chip">Ultracentrifugation</span>
+            <span class="chip">Fluorescence microscopy</span>
+            <span class="chip">Electron microscopy</span>
+          </div>
+        </div>
+        <div class="expertise-group">
+          <h3>Technical, computational &amp; bioinformatics</h3>
+          <div class="chip-row">
+            <span class="chip">Unix / Linux / HPC</span>
+            <span class="chip">Bash</span>
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">High-throughput sequencing &amp; QC</span>
+            <span class="chip">Genome assembly &amp; annotation</span>
+            <span class="chip">Comparative genomics</span>
+            <span class="chip">Data visualization</span>
+          </div>
+        </div>
+        <div class="expertise-group">
+          <h3>Leadership &amp; compliance</h3>
+          <div class="chip-row">
+            <span class="chip">Laboratory management</span>
+            <span class="chip">Preventive maintenance</span>
+            <span class="chip">Training &amp; onboarding</span>
+            <span class="chip">EHS &amp; DPH coordination</span>
+            <span class="chip">Inspection readiness</span>
+            <span class="chip">Granting agency compliance</span>
+            <span class="chip">Risk assessment</span>
+          </div>
+        </div>
+        <div class="expertise-group" style="grid-column:1/-1;">
+          <h3>Communication &amp; collaboration</h3>
+          <div class="chip-row">
+            <span class="chip">Cross-functional teamwork</span>
+            <span class="chip">Scientific writing</span>
+            <span class="chip">Technical presentations</span>
+            <span class="chip">Electronic recordkeeping</span>
+            <span class="chip">Mentoring</span>
+            <span class="chip">Interdisciplinary problem-solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="documents">
+      <h2>Documents</h2>
+      <div class="doc-grid">
+        <div class="doc-card">
+          <div>
+            <div class="doc-title">Resume</div>
+            <div class="doc-sub">v2026-02-05 &middot; industry-facing</div>
+          </div>
+          <a class="doc-btn" href="Bridges_Resume_2026-02-05.pdf" download>Download</a>
+        </div>
+        <div class="doc-card">
+          <div>
+            <div class="doc-title">Curriculum vitae</div>
+            <div class="doc-sub">v2026-01-02 &middot; academic-facing</div>
+          </div>
+          <a class="doc-btn" href="Bridges_CV_2026-01-02.pdf" download>Download</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="consultancy">
+      <h2>Consultancy</h2>
+      <div class="consult-card">
+        <h3>Strategic Molecular Solutions LLC</h3>
+        <p>Independent scientific consultancy advising academic and industry clients on molecular biology and virology research strategy.</p>
+        <a class="cta" href="https://www.strategicmolecularsolutions.com/" target="_blank" rel="noopener noreferrer">Visit strategicmolecularsolutions.com &rarr;</a>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2>Connect</h2>
+    <div class="links-row">
+      <a class="pill" href="mailto:charlesmbridgesphd@gmail.com">Email</a>
+      <a class="pill" href="https://www.linkedin.com/in/charlesmbridges/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="pill" href="https://scholar.google.com/citations?hl=en&user=vsOBoQQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a class="pill" href="https://orcid.org/0000-0002-9527-2476" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a class="pill" href="https://www.researchgate.net/profile/Charles-Bridges" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+    </div>
+    <p class="copyright">&copy; 2026 Charles M. Bridges</p>
+  </div>
+</footer>
+
+</body>
+</html>
